@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cosmic Excavation</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+
+	<link rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+	<header>
+		<div class="container">
+            <a href="#"><img src="./assets/images/rocket_logo.png" width="96px" /></a>
+			
+			<nav>
+				<a href="#">Home</a>
+				<a href="#services">Services</a>
+				<!-- <a href="#projects">Projects</a> -->
+				<a href="#contact">Contact</a>
+			</nav>
+			<button class="hamburger">
+				<div class="bar"></div>
+			</button>
+		</div>
+	</header>
+	<nav class="mobile-nav">
+		<a href="#">Home</a>
+		<a href="#services">Services</a>
+		<!-- <a href="#projects">Projects</a> -->
+		<a href="#contact">Contact</a>
+	</nav>
+	<main>
+		<section class="banner">
+			<div class="container">
+				<h1>
+					Collecting water to platinum on asteroids and planets.
+				</h1>
+
+				<h3>Join the team!</h3>
+
+				<a href="#" class="button">Find out more</a>
+			</div>
+		</section>
+
+		<section id="services" class="services">
+			<div class="container">
+				<h2>Services</h2>
+				
+				<div class="services-grid">
+
+					<div class="service">
+						<figure class="img-box">
+							<img src="./assets/images/water-extraction.jpeg" alt="Water Collection" class="img" />
+						</figure>
+						<div class="content">
+							<h3>Water collection</h3>
+							<p>
+								We extract water from planets, moons or asteroids then bring it back to mother earth.
+							</p>
+						</div>
+					</div>
+
+					<div class="service">
+						<figure class="img-box">
+							<img src="./assets/images/platinum-nuggets.jpg" alt="Rare Earth Elements" class="img" />
+						</figure>
+						<div class="content">
+							<h3>Mineral collection</h3>
+							<p>
+								Simple rocks to platinum, we extract it all. We then sell it to anyone from small jewelry companies to large governments.
+							</p>
+						</div>
+					</div>
+					
+					<div class="service">
+						<figure class="img-box">
+							<img src="./assets/images/construction-in-space.jpg" alt="Construction" class="img" />
+						</figure>
+						<div class="content">
+							<h3>Construction</h3>
+							<p>
+								We are branching out into commercial and residential construction in space. Cosmic Extractions is now constructing homes on Mars.
+							</p>
+						</div>
+					</div>
+
+					<div class="service">
+						<figure class="img-box">
+							<img src="./assets/images/space-tourism.jpg" alt="Extracting resources" class="img" />
+						</figure>
+						<div class="content">
+							<h3>Space Tourism</h3>
+							<p>
+								We are branching out into public space travel. Everyone can be a astronaut... for $20million.
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="contact" id="contact">
+			<div class="container">
+				<h2>Contact</h2>
+				
+				<form>
+					<div class="form-grid">
+						<input type="text" name="name" id="name" placeholder="Name" class="form-element" />
+						<input type="email" name="email" id="email" placeholder="Email" class="form-element" />
+						<textarea name="message" id="message" placeholder="Messsage" class="form-area"></textarea>
+					</div>
+					<div class="right-align">
+						<input type="submit" value="Send message" class="button" />
+					</div>
+				</form>
+			</div>
+		</section>
+	</main>
+	<script src="./js/main.js"></script>
+</body>
+</html>
